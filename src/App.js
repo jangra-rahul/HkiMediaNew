@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HomePage from "./pages/HomePage";
@@ -16,6 +16,7 @@ import "aos/dist/aos.css";
 import MediaAppPage from "./pages/MediaAppPage";
 import Privacypolicy from "./pages/Privacypolicy";
 import TopToBottom from "./components/common/TopToBottom";
+import EventPage from "./pages/EventPage";
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/advertisement" element={<AdvertisementPage />} />
         <Route path="/media-matrix-app" element={<MediaAppPage />} />
         <Route path="/privacy-policy" element={<Privacypolicy />} />
+        <Route path="/event" element={<EventPage />} />
       </Routes>
       <Footer />
     </>

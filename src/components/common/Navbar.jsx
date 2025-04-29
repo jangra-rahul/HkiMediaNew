@@ -89,6 +89,26 @@ const Navbar = () => {
                 Creations
               </Link>
             </li>
+            <li>
+              <Link
+                className={`fs_16 ff_s fw-bold link_hover ${
+                  isActive("/event") ? "active_link" : "text-black"
+                }`}
+                to="/event"
+              >
+                Event
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`fs_16 ff_s fw-bold link_hover ${
+                  isActive("/vrar") ? "active_link" : "text-black"
+                }`}
+                to="/vrar"
+              >
+                VR/AR
+              </Link>
+            </li>
             {/* <li>
               <Link
                 className={`fs_16 ff_s fw-bold link_hover ${
@@ -102,11 +122,11 @@ const Navbar = () => {
           </ul>
 
           {/* Button */}
-          <Link to={"/media-matrix-app"}>
+          {/*<Link to={"/media-matrix-app"}>
             <button className="cummon_btn px-4 fs_16 border-0 text-white ff_s fw-bold d-none d-lg-block">
               Media Matrix App
             </button>
-          </Link>
+          </Link>*/}
 
           {/* Hamburger Menu for small screens */}
 
