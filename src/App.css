@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
+.ff_s {
+  font-family: "Saira", serif;
+}
+.ff_n {
+  font-family: "Nunito", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  list-style-type: none !important;
+}
+
+body {
+  font-family: "Nunito", serif;
+}
+
+:root {
+  /* Font Size */
+  --fs-sm: 10px;
+  --fs-md: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 18px;
+  --fs-xxl: 20px;
+  --fs-3xl: 23px;
+  --fs-4xl: 24px;
+  --fs-5xl: 35px;
+  --fs-6xl: 44px;
+  /* Color */
+  --clr-theme: #e50a14;
+  --clr-lightgray: #b2b2b2;
+  --clr-darkgray: #878787;
+  /* bg color */
+  --bg-theme: #e50a14;
+}
+
+.fs_10 {
+  font-size: var(--fs-sm) !important;
+}
+.fs_14 {
+  font-size: var(--fs-md) !important;
+}
+.fs_16 {
+  font-size: var(--fs-lg) !important;
+}
+.fs_18 {
+  font-size: var(--fs-xl) !important;
+}
+.fs_20 {
+  font-size: var(--fs-xxl) !important;
+}
+.fs_23 {
+  font-size: var(--fs-3xl) !important;
+}
+.fs_24 {
+  font-size: var(--fs-4xl) !important;
+}
+.fs_35 {
+  font-size: var(--fs-5xl) !important;
+}
+.fs_44 {
+  font-size: var(--fs-6xl) !important;
+}
+.clr_theme {
+  color: var(--clr-theme);
+}
+.clr_lightgray {
+  color: var(--clr-lightgray);
+}
+.clr_darkgray {
+  color: var(--clr-darkgray);
+}
+.bg_theme {
+  background-color: var(--bg-theme) !important;
+}
+
+textarea {
+  outline: none !important;
+}
+
+select {
+  outline: none !important;
+}
+@media (max-width: 768px) {
+  :root {
+    /* Font Size */
+    --fs-sm: 10px;
+    --fs-md: 14px;
+    --fs-lg: 14px;
+    --fs-xl: 18px;
+    --fs-xxl: 11px;
+    --fs-3xl: 16px;
+    --fs-4xl: 16px;
+    --fs-5xl: 20px;
+    --fs-6xl: 25px;
+  }
+  .custom_w1 {
+    width: 100% !important;
+  }
+}

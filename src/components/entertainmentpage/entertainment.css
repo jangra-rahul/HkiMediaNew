@@ -1,0 +1,112 @@
+.faq .accordion-button:not(.collapsed) {
+  background-color: #e50a14 !important;
+  box-shadow: 0px 0px transparent !important;
+  border: none !important;
+}
+
+.faq .accordion {
+  --bs-accordion-btn-focus-box-shadow: 0px 0px transparent !important;
+}
+
+.faq .accordion-button::after {
+  background-image: url(../../assets/images/svg/bottom_arrow.svg) !important;
+}
+
+.faq .accordion-item {
+  background-color: #e50a14 !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+.faq .accordion-button {
+  background-color: #454545 !important;
+  border-radius: 8px !important;
+}
+
+.Advantage_bg {
+  background-image: url(../../assets/images/png/partners_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.article_btn {
+  border: 1px solid #ffffff;
+  /* background-color: transparent !important; */
+}
+
+.video_btn {
+  /* background-color: white !important; */
+  border: 1px solid #fff;
+  color: #e50a14;
+  border-radius: 4px;
+}
+
+.video_btn,
+.article_btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.active-tab {
+  background-color: white;
+  color: #e50a14 !important;
+  border: 2px solid white !important;
+}
+
+.entertainment_slider .slick-dots li button:before {
+  font-size: 17px !important;
+  color: #ccc !important;
+}
+
+.entertainment_slider .slick-dots li.slick-active button:before {
+  color: #fff !important;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: -45px !important; /* Adjust this value as needed */
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+/* ----------------- */
+.flip-container {
+  perspective: 1000px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.flip-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  transition: all 300ms ease-in-out;
+}
+
+.flipping .flip-image {
+  animation: flip 0.5s ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(90deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(180deg);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,43 @@
+.cummon_btn {
+  background-color: #e50a14;
+  padding: 8px 7px;
+  border-radius: 8px;
+}
+
+.navmanu {
+  width: 35px;
+  height: 25px;
+}
+
+.navdot {
+  border: 2px solid #e50a14;
+  color: #e50a14;
+  background-color: #e50a14;
+  border-radius: 100px;
+}
+
+.active_link {
+  color: #e50a14 !important;
+}
+
+.custom_margin {
+  margin: 7px 0px;
+}
+
+.custom_position {
+  top: 50px;
+  cursor: pointer !important;
+}
+
+.link_hover:hover {
+  color: #e50a14 !important;
+}
+.link_hover {
+  transition: all 300ms ease-in-out;
+}
+
+@media (max-width: 992px) {
+  .custom_position {
+    top: 25px;
+  }
+}
