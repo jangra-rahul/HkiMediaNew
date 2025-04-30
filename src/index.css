@@ -32,12 +32,29 @@
 .link_hover:hover {
   color: #e50a14 !important;
 }
+
 .link_hover {
   transition: all 300ms ease-in-out;
 }
 
+.arrow_position {
+  top: -40px;
+  left: 215px;
+}
+
+@media (max-width: 1400px) {
+  .arrow_position {
+    left: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .arrow_position {
+    left: 30px;
+  }
+}
 @media (max-width: 992px) {
   .custom_position {
     top: 25px;
   }
+
 }

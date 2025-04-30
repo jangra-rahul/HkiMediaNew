@@ -14,7 +14,7 @@ const EventsCorporate = () => {
                 <p className='fs_24 text-center text-white mb-0'>
                     Business. Brilliance. Buzz.
                 </p>
-                <p className='text-white text-center mx-auto col-xl-8 pb-5 fs_16 pt-4 mb-0 mt-lg-1'>
+                <p className='text-white text-center mx-auto col-xl-9 pb-5 fs_16 pt-4 mb-0 mt-lg-1'>
                     From live concerts to celebrity nights, fashion runways to youth festivals — HKI curates experiences that dazzle and disrupt. With insider access to talent and tech, we produce entertaiConferences, product launches, annual days, award ceremonies — we execute each with flair, precision, and a brand-first mindset. From venue to vibe, HKI ensures your event becomes the talk of the industry.  nment that’s unforgettable and always on-trend.
                 </p>
 

@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 .ff_s {
   font-family: "Saira", serif;
@@ -6,6 +7,14 @@
 
 .ff_n {
   font-family: "Nunito", serif;
+}
+
+.ff_i {
+  font-family: "Inter", serif;
+}
+
+.ff_p {
+  font-family: "Poppins", serif;
 }
 
 * {
@@ -17,7 +26,7 @@
 }
 
 body {
-  font-family: "Nunito", serif;
+  font-family: "Nunito", serif !important;
 }
 
 :root {
@@ -32,10 +41,12 @@ body {
   --fs-4xl: 24px;
   --fs-5xl: 35px;
   --fs-6xl: 44px;
+  --fs-7xl: 30px;
   /* Color */
   --clr-theme: #e50a14;
   --clr-lightgray: #b2b2b2;
   --clr-darkgray: #878787;
+  --clr-darkblack: #313131;
   /* bg color */
   --bg-theme: #e50a14;
 }
@@ -72,6 +83,10 @@ body {
   font-size: var(--fs-4xl) !important;
 }
 
+.fs_30 {
+  font-size: var(--fs-7xl) !important;
+}
+
 .fs_35 {
   font-size: var(--fs-5xl) !important;
 }
@@ -96,6 +111,10 @@ body {
   background-color: var(--bg-theme) !important;
 }
 
+.bg_darkblack {
+  background-color: var(--clr-darkblack) !important;
+}
+
 textarea {
   outline: none !important;
 }
@@ -112,10 +131,12 @@ select {
     --fs-lg: 14px;
     --fs-xl: 18px;
     --fs-xxl: 11px;
+    --fs-2xl: 16px;
     --fs-3xl: 16px;
     --fs-4xl: 16px;
     --fs-5xl: 20px;
     --fs-6xl: 25px;
+    --fs-6xl: 20px;
   }
 
   .custom_w1 {
@@ -127,6 +148,64 @@ select {
 .bg_gradient {
   background: linear-gradient(-180deg, #e50a14 50%, #000 50%);
 }
+
 .bg_gradient2 {
   background: linear-gradient(0deg, #e50a14 50%, #000 50%);
+}
+
+.rounded_12 {
+  border-radius: 12px;
+}
+
+.event_hero {
+  background-image: url("./assets/images/png/event_hero.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.event_btn {
+  border: 1.26px solid white !important;
+}
+
+.event-slider .slick-slide {
+  transform: scale(0.8);
+  transition: all 0.4s ease-in-out;
+}
+
+.event-slider .slick-slide img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+  border-radius: 10px;
+}
+
+.event-slider .slick-center {
+  transform: scale(1);
+}
+
+.slick-dots {
+  bottom: -40px !important;
+}
+
+.slick-dots li {
+  width: 11px !important;
+  height: 11px !important;
+  margin: 0 5px !important;
+  background-color: #8a8a8a;
+  border-radius: 100%;
+  transition: all linear 0.5s;
+  overflow: hidden;
+}
+
+.slick-dots .slick-active {
+  border-radius: 100%;
+  background-color: white !important;
+}
+
+.slick-dots li button:before {
+  content: " " !important;
+}
+
+.min_event_hero_h{
+  min-height: calc(100vh - 73px);
 }
